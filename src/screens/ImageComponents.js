@@ -1,8 +1,8 @@
 import React from "react";
-import { Text, View, Image, StyleSheet, Button, ToastAndroid
-} from "react-native";
+import { Text, View, Image, StyleSheet, Button, ToastAndroid } from "react-native";
 
 const Imagecomponents = ({ text, image, price})=>{
+
     return(<View style={STYLES.text_style_group}>
         <Image style={STYLES.image_style}
             source={{uri: image}}
@@ -20,6 +20,7 @@ const Imagecomponents = ({ text, image, price})=>{
                       ToastAndroid.SHORT,
                       ToastAndroid.BOTTOM
                     );
+                    this.FunctionToOpenSecondActivity
             }}
         />
         <View style={{marginBottom:12,}}></View>
@@ -57,7 +58,7 @@ const STYLES = StyleSheet.create({
     text_style_group1:{
         display: "flex",
         flexDirection:"row",
-        justifyContent: "space-between",
+        justifyContent: "space-evenly",
     },
 });
 

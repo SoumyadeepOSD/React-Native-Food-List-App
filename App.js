@@ -6,7 +6,7 @@ import Imagecomponents from "./src/screens/ImageComponents.js";
 const App = () =>{
   return (
     <ScrollView>
-      <Text style={{color:"green", fontSize:30, marginVertical: 20, textAlign:"center"}}>2022 Food Items</Text>
+      <Text style={{color:"green", fontSize:30, marginTop: 30, textAlign:"center"}}>Resturant App</Text>
       <Imagecomponents
         text="Chicken Biriyani"
         image={"https://images.unsplash.com/photo-1630409346824-4f0e7b080087?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1246&q=80"}
